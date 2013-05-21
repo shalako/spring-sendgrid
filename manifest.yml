@@ -1,7 +1,0 @@
----
-applications:
-- name: spring-sendgrid
-  memory: 512M
-  instances: 1
-  url: spring-sendgrid.${target-base}
-  path: build/libs/spring-sendgrid.war
